@@ -1,0 +1,33 @@
+The BankApp.java is the main program but it relies on BankOpen.java, BankCreateAccount.java, BankLogin.java, and BankMain.java
+
+When you first run BankApp.java you will be presented with the "Bank of Banking"'s Opening Menu.
+There are 3 buttons in the Opening Menu: Login, Create Account, and Exit.
+Selecting the Exit button ends the program.
+The Create Account button is the first button you'd want to click if this is the first time running this application. However, Login does work for previous uses.
+
+After clicking the Create Account button you will be presented with 2 text fields called Name and Password along with two buttons named Confirm and Return.
+Enter your name into the Name field and your desired password in the Password field.
+Note that as of the current version of the app these are unchangeable within the app and are bound to your account.
+Pressing the Return button will return you to the Opening Menu without creating your account. It functions as a back button.
+Pressing Confirm will take your inputted Name and Password and create an account with them.
+Note that Confirm will fail if either field is empty and will bring up an error message.
+After pressing Confirm the program will display your accounts Name, Password, and Account ID along with the Return button.
+The most important things to remember are your Account ID and your Password as these are what are used to access your account.
+It is recommended to write these down on a note or otherwise keep track of this information.
+Hitting the Return button will return you to the Opening Menu where you will once again be presented with the Login, Create Account, and Exit buttons.
+
+The next step is to select the Login button. This will take you to the Login Menu where you will see the ID and Password fields as well as the Confirm and Back buttons.
+The Back button will return you to the Opening Menu without accessing your account.
+To access your account, you will need to type in your Account ID from earlier into the ID field.
+Next, type in your Password from before into the Password field.
+Finally, hit the Confirm button. As long as you entered your information in correctly it should bring you straight into your account.
+If you input incorrect information, an error will appear notifying you of this. Simply press Okay and you can try again.
+
+Now that you are inside your account, you will be presented with your Name, Balance, a field for inputting dollar amounts, and finally the Desposit, Withdraw, and Logout buttons.
+The Logout button will log you out of your account, returning you to the Opening Menu.
+Your Balance displays the current amount of money in your account.
+To desposit or withdraw from your account, input the amount of money in the field. Then press the corrisponding button.
+Pressing Deposit will add money to your account. Pressing Withdraw will remove money from your account.
+You may notice that your balance can go into the negatives if you over withdraw. This is due to a phenomenon known as ~going into debt~
+Once you are finished with your account you can log out and exit the program.
+The next time you run the program you can simply log into the same account and it will be just as you left it.
